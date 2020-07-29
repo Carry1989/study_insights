@@ -1,0 +1,47 @@
+.toolbar {
+    padding: 1.2rem;
+    background-color: var(--light-gray-1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    box-shadow: 1px 0px rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar__title {
+    font-size: 1.8rem;
+    margin-right: auto;
+}
+
+.toolbar__img__box {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.toolbar__img {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.toolbar__img__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.toolbar__img__btn:focus {
+    outline: none;
+}
+
+.toolbar__btn {
+    border: none;
+    background-color: transparent;
+    color: var(--dark-gray-1);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.toolbar__btn:focus {
+    outline: none;
+}

@@ -1,0 +1,9 @@
+.Content {
+    display: flex;
+    min-height: 100vh; /* to spread the full height */
+}
+
+.Main {
+    background-color: var(--light-gray-2);
+    flex: 1;
+}

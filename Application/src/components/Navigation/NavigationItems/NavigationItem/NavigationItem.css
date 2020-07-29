@@ -1,0 +1,33 @@
+.NavigationItem {
+    position: relative;
+}
+
+.NavigationItem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--items-color);
+    transform: scaleY(0);
+    transition: transform .2s, width .4s cubic-bezier(1, 0, 0, 1) .2s, background-color .1s;
+}
+
+.NavigationItem:hover::before {
+    transform: scaleY(1);
+    width: 100%;
+}
+
+.Link {
+    color: var(--light-gray-3);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+    position: relative;
+}
+
+.active {
+    background-color: var(--items-color);
+}

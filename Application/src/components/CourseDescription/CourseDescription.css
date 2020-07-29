@@ -1,0 +1,57 @@
+.Container {
+    display: flex;
+    padding: 2rem;
+    margin: auto;
+}
+
+.LargeMenu {
+    flex: 35%;
+    background-color: var(--light-gray-1);
+    border-radius: .2rem;
+    border: 0.5px solid var(--light-gray-4);
+    box-shadow: .1rem .15rem .1rem rgba(0, 0, 0, 0.329);
+    padding: 2.5rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.RightMenu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.SmallCard {
+    background-color: var(--light-gray-1);
+    border-radius: .2rem;
+    border: 0.5px solid var(--light-gray-4);
+    box-shadow: .1rem .15rem .1rem rgba(0, 0, 0, 0.329);
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+.SmallCard:last-child {
+    margin-bottom: 0px;
+}
+
+.h2 {
+    font-weight: 600;
+    color: #74405E;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.LargeTextDiv {
+    font-size: 1.5rem;
+}
+
+.SmallTextDiv {
+    font-size: 1.2rem;
+}
+
+.Text {
+    color: #777;
+    font-weight: 200;
+}

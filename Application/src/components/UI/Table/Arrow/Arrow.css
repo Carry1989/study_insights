@@ -1,0 +1,16 @@
+.Arrow {
+  width: 0;
+  height: 0;
+  border-left: .6rem solid transparent;
+  border-right: .6rem solid transparent;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.Down {
+  border-top: .6rem solid var(--primary-color);
+}
+
+.Up {
+  border-bottom: .6rem solid var(--primary-color);
+}

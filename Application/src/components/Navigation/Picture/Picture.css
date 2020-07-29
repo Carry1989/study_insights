@@ -1,0 +1,30 @@
+.User {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.Img {
+    display: inline-block;
+    width: 30%;
+    border-radius: 50%;
+    border: .8px solid white;
+}
+
+.Name {
+    color: var(--light-gray-3);
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+
+.Name::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    right: 25%;
+    background-color: var(--light-gray-3);
+}

@@ -1,0 +1,16 @@
+.profile__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-bottom: 0.5px solid var(--light-gray-4);
+}
+
+.profile__row__column {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.colValue {
+    width: 30%;
+}

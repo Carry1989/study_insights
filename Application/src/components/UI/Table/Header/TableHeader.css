@@ -1,0 +1,20 @@
+.Container {
+    padding: .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.Container:last-child {
+    margin-right: 2rem;
+}
+
+.Container:first-child {
+    margin-left: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}

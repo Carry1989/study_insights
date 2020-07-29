@@ -1,0 +1,12 @@
+.NavigationItems {
+    font-size: 1.4rem;
+    list-style: none;
+    margin-top: 4.5rem;
+}
+
+.Icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 2rem;
+    fill: currentColor;
+}

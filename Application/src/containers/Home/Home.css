@@ -1,0 +1,33 @@
+.home {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home>* {
+    margin-top: 3rem;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subcontent>* {
+    flex: 0 0 40%;
+    height: 30rem;
+    padding: 2rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.SpanHome {
+    font-weight: 700;
+    color: var(--primary-color);
+}

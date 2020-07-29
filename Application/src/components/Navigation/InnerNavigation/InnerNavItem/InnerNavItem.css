@@ -1,0 +1,24 @@
+.InnerNavItem {
+  display: inline-block;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.Link.active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 100%;
+  left: .1px;
+  right: .1px;
+  background-color: var(--primary-color);
+}
+
+.Link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 1.6rem;
+  position: relative;
+}

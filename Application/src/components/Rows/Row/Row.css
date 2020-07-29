@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--light-gray-4);
+    border-top: 0.5px solid var(--light-gray-4);
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.row>div {
+    width: 10%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row>div:first-child {
+    margin-left: -2.5rem;
+}
+
+.row>div:last-child {
+    margin-right: -2rem;
+}

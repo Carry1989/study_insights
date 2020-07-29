@@ -1,0 +1,12 @@
+.innerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h4 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,10 @@
+.Container {
+    width: 20rem;
+    height: 20rem;
+}
+
+.Image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
